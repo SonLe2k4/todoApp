@@ -1,0 +1,62 @@
+@media (max-width: 1150px) and (min-width: 671px) {
+    .content_Todo {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    .wp_Todo {
+        .heading {
+            height: 90px;
+            width: 100% !important;
+        }
+        .wp_input_data {
+            .input_data {
+                width: 74% !important;
+            }
+            .des_input_data {
+                left: 24px !important;
+                font-size: 14px;
+            }
+            .button_add {
+            }
+            width: 96% !important;
+            margin-top: 104px !important;
+        }
+        .listTodo {
+            .count_todo {
+                width: 60px;
+                text-align: center;
+            }
+            .item_list_wp_control {
+                width: 96px !important; 
+            }
+            .content_Todo {
+                margin-left: 10px;
+                width: 50% !important; 
+            }
+            left: 50%;
+            transform: translateX(-50%) !important;
+            margin-top: 155px !important;
+            position: fixed !important;
+            height: 70vh !important;
+        }
+        margin-top: 0 !important;
+        width: 100% !important;
+        max-width: none !important;
+        min-height: 100vh !important;
+        max-height: 100% !important;
+        margin-bottom: 0 !important;
+    }
+    .icons_social_network {
+        position: fixed;
+        bottom: 8px;
+        margin-left: 10px !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .heading {
+        // height: 120px !important;
+    }
+}
